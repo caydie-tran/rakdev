@@ -16,8 +16,8 @@
       <div class="mdl-layout__drawer">
         <span class="mdl-layout-title"><a id="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a></span>
         <nav class="mdl-navigation">
-          {% assign sorted_pages = site.ssed | sort: 'weight'%}
-          {% include menu.html %}
+            {% assign sorted_pages = site.big-data | sort: 'weight'%}
+            {% include menu.html %}
         </nav>
       </div>
       <main class="mdl-layout__content">

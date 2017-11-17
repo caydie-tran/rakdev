@@ -1,6 +1,6 @@
 ---
-layout: page
-title: Adding Content
+layout: help
+title: Adding Content By YAML
 intro:
 - image_path: /assets/images/flower.jpg
   excerpt_label: Introduction
@@ -30,7 +30,7 @@ include:
 - excerpt: Once you configure the yaml for your feature row you then need to "include" it below your yaml configuration. As you can see in the screenshot above all you need is the name of your feature row which will be your ID. Here is the line that you need to "include" the "row1" feature row.
   image_label: Including your feature row
   image_path: /assets/images/include.jpg
---- 
+---
 
 {% include feature_row id="intro" %}
 {% include feature_row id="sample" %}
