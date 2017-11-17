@@ -2,8 +2,12 @@
 <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.{% if site.mdl_colors %}{{ site.mdl_colors }}{% else %}blue-indigo{% endif %}.min.css" />
+<link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700" rel="stylesheet">
 <title>{{ page.title }} | {{ site.title }}</title>
 <style>
+body {
+  font-family: 'Ubuntu';
+}
 #site-title{
   color: inherit;
   text-decoration: none;
@@ -59,13 +63,20 @@ footer{
 .feature__item--right {
 
 }
+.feature__wrapper {
+  margin-bottom: 7%;
+}
 .codeBlock {
   background-color: #E8E8E8;
   padding: 10px;
   padding-left: 19.5px;
+  margin-top: 7%;
 }
 .codeLine {
   margin: 0;
+}
+.archive__item-teaser {
+  margin-bottom: 5%;
 }
 
 /* Copied from Syntax.css (https://github.com/mojombo/tpw/blob/master/css/syntax.css) */

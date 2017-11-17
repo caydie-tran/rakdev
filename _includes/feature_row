@@ -16,7 +16,7 @@
 
     {% if f.image_label %}
       <div>
-        <h3>{{ f.image_label }}</h3>
+        <h3><b>{{ f.image_label }}</b></h3>
       </div>
     {% endif %}
 
@@ -36,7 +36,7 @@
 
         {% if f.excerpt_label %}
           <div>
-            <h3>{{ f.excerpt_label }}</h3>
+            <h3><b>{{ f.excerpt_label }}</b></h3>
           </div>
         {% endif %}
 
@@ -48,7 +48,7 @@
         
         {% if f.list_label %}
         <div>
-          <h4>{{ f.list_label }}</h4>
+          <h4><b>{{ f.list_label }}</b></h4>
         </div>
         {% endif %}
 
