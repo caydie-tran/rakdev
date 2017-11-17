@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    {% include head.html %}
+    <link rel="stylesheet" href="./assets/css/index.css">
+  </head>
+  <body>
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header class="mdl-layout__header">
+        <div class="mdl-layout__header-row">
+          <span class="mdl-layout-title">
+            {% if page.title %}
+              <h1 id="page-title" class="mdl-typography--title">
+                <img src="./assets/rakuten-logo.png">
+                {{ page.title }}
+              </h1>
+            {% endif %}
+          </span>
+        </div>
+      </header>
+      <main class="mdl-layout__content">
+        <div class="page-content">
+          <div class="content">
+            <div class="splash-container">
+              <img src="./assets/red-home-splash.jpg">
+              <!--<div class="text-overlay">
+                  A Content Management System Built by Rakuten Developers for Rakuten Developers.
+              </div>-->
+              <div class="overlay">
+			          <span id="text-overlay">
+                  <p id="intro">A Content Management System Built by Rakuten Developers for Rakuten Developers.</p>
+                </span>
+              </div>
+            </div>
+            <div class="section-separator">
+              <div class="header">
+                Departments
+              </div>
+              <div class="content-grid mdl-grid">
+                <div class="mdl-cell">
+                  <div class="department-title">
+                    Software Service Enablement Department
+                  </div>
+                  <div class="department-description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+                    fugiat nulla pariatur.
+                  </div>
+                  <div class="button-container">
+                    <a href="/ssed/">
+                        <button class="mdl-button mdl-js-button">See More</button>
+                    </a>
+                  </div>
+                </div>
+                <div class="mdl-cell">
+                  <div class="department-title">
+                    Rakuten Institute of Technology
+                  </div>
+                  <div class="department-description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+                    fugiat nulla pariatur.
+                  </div>
+                  <div class="button-container">
+                    <a href="/rit/">
+                        <button class="mdl-button mdl-js-button">See More</button>
+                    </a>
+                  </div>
+                </div>
+                <div class="mdl-cell">
+                  <div class="department-title">
+                    Cloud Ops
+                  </div>
+                  <div class="department-description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+                    fugiat nulla pariatur.
+                  </div>
+                  <div class="button-container">
+                    <a href="/cloud-ops/">
+                        <button class="mdl-button mdl-js-button">See More</button>
+                    </a>
+                  </div>
+                </div>
+                <div class="mdl-cell">
+                  <div class="department-title">
+                    Security
+                  </div>
+                  <div class="department-description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+                    fugiat nulla pariatur.
+                  </div>
+                  <div class="button-container">
+                    <a href="/security/">
+                        <button class="mdl-button mdl-js-button">See More</button>
+                    </a>
+                  </div>
+                </div>
+                <div class="mdl-cell">
+                  <div class="department-title">
+                    Ecosystem Service Division
+                  </div>
+                  <div class="department-description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+                    fugiat nulla pariatur.
+                  </div>
+                  <div class="button-container">
+                    <a href="/esd/">
+                        <button class="mdl-button mdl-js-button">See More</button>
+                    </a>
+                  </div>
+                </div>
+                <div class="mdl-cell">
+                  <div class="department-title">
+                    Big Data
+                  </div>
+                  <div class="department-description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et 
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip 
+                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+                    fugiat nulla pariatur.
+                  </div>
+                  <div class="button-container">
+                    <a href="/big-data/">
+                        <button class="mdl-button mdl-js-button">See More</button>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="line-separator"></div>
+            <div id="instructions">
+              <ul id="intro"> 
+                <li class="item"><img class="icon" src="./assets/pen.png"></li>
+                <li class="item">Easily create documentation with markdown.</li>
+                <li class="item"><img class="icon" src="./assets/git-branch.png"></li>
+                <li class="item">Commit and push changes.</li>
+                <li class="item"><img class="icon" src="./assets/collaboration.png"></li>
+                <li class="item"> Review and merge for everyone to see!</li>
+              </ul>
+            </div>
+            <footer class="mdl-mega-footer">
+              <div class="mdl-mega-footer__middle-section">
+
+                <div class="mdl-mega-footer__drop-down-section">
+                  <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+                  <h1 class="mdl-mega-footer__heading">Features</h1>
+                  <ul class="mdl-mega-footer__link-list">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Partners</a></li>
+                    <li><a href="#">Updates</a></li>
+                  </ul>
+                </div>
+
+                <div class="mdl-mega-footer__drop-down-section">
+                  <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+                  <h1 class="mdl-mega-footer__heading">Details</h1>
+                  <ul class="mdl-mega-footer__link-list">
+                    <li><a href="#">Specs</a></li>
+                    <li><a href="#">Tools</a></li>
+                    <li><a href="#">Resources</a></li>
+                  </ul>
+                </div>
+
+                <div class="mdl-mega-footer__drop-down-section">
+                  <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+                  <h1 class="mdl-mega-footer__heading">Technology</h1>
+                  <ul class="mdl-mega-footer__link-list">
+                    <li><a href="#">How it works</a></li>
+                    <li><a href="#">Patterns</a></li>
+                    <li><a href="#">Usage</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Contracts</a></li>
+                  </ul>
+                </div>
+
+                <div class="mdl-mega-footer__drop-down-section">
+                  <input class="mdl-mega-footer__heading-checkbox" type="checkbox" checked>
+                  <h1 class="mdl-mega-footer__heading">FAQ</h1>
+                  <ul class="mdl-mega-footer__link-list">
+                    <li><a href="#">Questions</a></li>
+                    <li><a href="#">Answers</a></li>
+                    <li><a href="#">Contact us</a></li>
+                  </ul>
+                </div>
+
+              </div>
+
+              <div class="mdl-mega-footer__bottom-section">
+                <div class="mdl-logo">Rakuten Inc.</div>
+                <ul class="mdl-mega-footer__link-list">
+                  <li><a href="#">Help</a></li>
+                  <li><a href="#">Privacy & Terms</a></li>
+                </ul>
+              </div>
+            </footer>
+          </div>
+        </div>
+      </main>
+  </body>
+</html>
