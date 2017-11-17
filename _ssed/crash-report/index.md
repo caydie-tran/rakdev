@@ -1,4 +1,4 @@
 ---
-layout: page
-permalink: /ssed/crash-report
+layout: ssed
 ---
+
