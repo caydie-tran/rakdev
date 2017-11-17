@@ -1,6 +1,6 @@
 ---
 layout: help
-permalink: /help/uploading-content
+permalink: /help/publishing-content
 ---
 
 <!-- all projects sorted here -->
