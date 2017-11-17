@@ -1,9 +1,11 @@
 ---
 layout: ssed
-title: Getting Started
+permalink: ssed/api-c/
+weight: 2
 ---
 
-## CrashReporting
+
+## RELAY
 
 ### Introduction 
 Real-time mobile app crash tracking/reporting. 

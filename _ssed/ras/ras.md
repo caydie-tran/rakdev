@@ -1,16 +1,17 @@
 ---
-layout: page
-title: Getting Started
-parent: crash-report.md
+layout: ssed
+permalink: ssed/ras/
+weight: 1
 ---
 
-## CrashReporting
+
+## Ras
 
 ### Introduction 
 Real-time mobile app crash tracking/reporting. 
 
 ### Software Requirements
-- API 16 or higher
+- API 15 or higher
 
 ### Installation
 1.	Include Subscription ID in AndroidManifest as MetaData:
@@ -29,13 +30,13 @@ Real-time mobile app crash tracking/reporting.
     ```
 
     ```
-    compile 'com.rakuten.tech.mobile:crash-reporting:1.0.0'
+    compile 'com.rakuten.tech.mobile:crash-reporting:0.2.0'
     ```
 
     If your application alreayd includes google play-services:
 
     ```
-    compile ('com.rakuten.tech.mobile:crash-reporting:1.0.0') {
+    compile ('com.rakuten.tech.mobile:crash-reporting:0.2.0') {
             exclude group: 'com.google.android.gms', module: 'play-services-iid'
         }
     ```

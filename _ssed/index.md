@@ -1,10 +1,10 @@
 ---
 layout: ssed
 permalink: /ssed/
+menu: Table of Contents
 ---
 
-<<<<<<< HEAD
-hello
-=======
-<!-- all projects sorted here -->
->>>>>>> 7cff1aac95ce8441993d63b1778715f45979c978
+# Table of Contents
+1. [Crash Report](/ssed/crash-report)
+2. [RELAY](/ssed/api-c)
+3. [Third Example](#third-example)
