@@ -1,6 +1,5 @@
 ---
-layout: ssed
-permalink: /ssed/
+layout: help
 ---
 
 <!-- all projects sorted here -->

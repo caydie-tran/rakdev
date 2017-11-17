@@ -1,6 +1,6 @@
 ---
-layout: ssed
-permalink: /ssed/
+layout: big-data
+permalink: /big-data/
 ---
 
 <!-- all projects sorted here -->

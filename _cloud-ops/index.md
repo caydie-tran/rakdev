@@ -1,6 +1,6 @@
 ---
-layout: ssed
-permalink: /ssed/
+layout: cloud-ops
+permalink: /cloud-ops/
 ---
 
 <!-- all projects sorted here -->

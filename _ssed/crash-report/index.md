@@ -1,4 +1,6 @@
 ---
-layout: page
-permalink: /ssed/crash-report
+layout: ssed
+permalink: ssed/crash-report/
 ---
+
+<!-- all projects sorted here -->

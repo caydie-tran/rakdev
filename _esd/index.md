@@ -1,6 +1,6 @@
 ---
-layout: ssed
-permalink: /ssed/
+layout: esd
+permalink: /esd/
 ---
 
 <!-- all projects sorted here -->
