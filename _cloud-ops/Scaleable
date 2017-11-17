@@ -1,5 +1,6 @@
 ---
 layout: cloud-ops
+permalink: /cloud-ops/
 title: Scaleable
 grow:
 - image_path: /assets/images/grow.jpg

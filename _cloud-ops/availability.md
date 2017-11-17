@@ -1,6 +1,5 @@
 ---
 layout: cloud-ops
-permalink: /cloud-ops/
 available:
 - image_label: Stay Online. 24 / 7
   image_path: /assets/images/city.jpg
