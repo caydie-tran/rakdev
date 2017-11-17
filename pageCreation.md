@@ -33,6 +33,7 @@ include:
 --- 
 
 {% include feature_row id="intro" %}
+lala
 {% include feature_row id="sample" %}
 {% include feature_row id="concept" %}
 {% include feature_row id="outcome" %}
