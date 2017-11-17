@@ -1,11 +1,11 @@
 ---
 layout: ssed
-permalink: ssed/crash-report/
-weight: 1
+permalink: ssed/api-c/
+weight: 2
 ---
 
 
-## CrashReporting
+## RELAY
 
 ### Introduction 
 Real-time mobile app crash tracking/reporting. 

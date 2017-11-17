@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: ssed
 title: Getting Started
 ---
@@ -70,4 +70,4 @@ Associate logs with your crash reports.
 
   ```
   CrashReport.getInstance().log(String message);
-  ```
+  ``` -->
