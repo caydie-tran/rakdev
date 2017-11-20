@@ -52,6 +52,9 @@ collections:
   big-data:
     output: true
     permalink: /big-data/:path/
+  portals:
+    output: true 
+    permalink: /portals/:path/
     
 
 # Exclude from processing.
