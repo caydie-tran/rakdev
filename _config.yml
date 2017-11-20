@@ -57,7 +57,7 @@ collections:
     permalink: /portals/:path/
   demo:
     output: true
-    permalink: /portals/:path/
+    permalink: /demo/:path/
     
 
 # Exclude from processing.
