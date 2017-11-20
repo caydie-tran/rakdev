@@ -34,6 +34,12 @@
           </div>
         {% endif %}
 
+        {% if f.image_caption %}
+          <div class="captionDiv">
+            <p><i>{{ f.image_caption }}</i></p>
+          </div>
+        {% endif %}
+
         {% if f.excerpt_label %}
           <div>
             <h3><b>{{ f.excerpt_label }}</b></h3>
