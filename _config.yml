@@ -55,6 +55,9 @@ collections:
   portals:
     output: true 
     permalink: /portals/:path/
+  demo:
+    output: true
+    permalink: /portals/:path/
     
 
 # Exclude from processing.
