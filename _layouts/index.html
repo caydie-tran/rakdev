@@ -5,6 +5,13 @@
     <link rel="stylesheet" href="./assets/css/index.css">
   </head>
   <body>
+    <div>
+      <form action="{{ "/search.html" | prepend: site.baseurl }}" method="get">
+        <label for="search-box">Search</label>
+        <input type="text" id="search-box" name="query">
+        <input type="submit" value="search">
+      </form>
+    </div>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
       <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
