@@ -229,6 +229,7 @@ p {
 	background: transparent;
 	border: 6px solid transparent;
 }
+
 #text-overlay:after {
 	animation: 1s 0s 1 animate1 linear forwards;
 	animation-delay: 1s;
