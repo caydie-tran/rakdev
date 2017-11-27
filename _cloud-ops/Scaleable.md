@@ -2,6 +2,7 @@
 layout: cloud-ops
 permalink: /cloud-ops/
 title: Scaleable
+searchlink: /rakdev/cloud-ops
 grow:
 - image_path: /assets/images/grow.jpg
   excerpt_label: Grow with your User-Base

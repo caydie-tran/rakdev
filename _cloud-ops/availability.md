@@ -1,5 +1,6 @@
 ---
 layout: cloud-ops
+searchlink: /rakdev/cloud-ops/availability/
 available:
 - image_label: Stay Online. 24 / 7
   image_path: /assets/images/city.jpg
