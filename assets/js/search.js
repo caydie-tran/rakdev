@@ -50,7 +50,7 @@
                 'layout' : window.store[key].layout,
                 'permalink' : window.store[key].permalink, 
                 'title' : window.store[key].title,
-                'searchlink' : window.store[key].searchlink
+                'searchlink' : '/rakdev/' + window.store[key].permalink
             });
         }
     });
