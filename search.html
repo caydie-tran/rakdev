@@ -2,9 +2,10 @@
 layout: search
 ---
 <form action="{{ "/search.html" | prepend: site.baseurl }}" method="get">
-  <label for="search-box">Search</label>
-  <input type="text" id="search-box" name="query">
-  <input type="submit" value="search">
+  <div class="mdl-textfield mdl-js-textfield">
+    <input class="mdl-textfield__input" type="text" id="search-box" name="query">
+    <label class="mdl-textfield__label" for="sample1">Search by Department...</label>
+  </div>
 </form>
 
 <ul id="search-results"></ul>
