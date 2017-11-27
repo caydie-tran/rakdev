@@ -11,19 +11,17 @@ layout: search
 
 <script>
   window.store = {
-    {% for post in site.cloud-ops %}
-      "{{ post.url | slugify }}": {
-        "layout" : "{{ post.layout | xml_escape }}",
-        "permalink" : "{{ post.permalink | xml_escape }}",
-        "title": "{{ post.title | xml_escape }}",
-        "searchlink" : "{{ post.searchlink | xml_escape }}"
-        // "description": "{{ post.description | xml_escape }}", 
-        // "author": "{{ post.author | xml_escape }}",
-        // "category": "{{ post.category | xml_escape }}",
-        // "content": {{ post.content | strip_html | strip_newlines | jsonify }},
-        // "url": "{{ post.url | xml_escape }}"
-      }
-      {% unless forloop.last %},{% endunless %}
+    {% for collection in site.collections %}
+      {% assign name = collection.label %}
+        {% for post in site[name] %}
+          {% capture link %}{{ "/rakdev" }}{{ post.permalink }}{% endcapture %}
+          "{{ post.url | slugify }}" : {
+            "layout" : "{{ post.layout | xml_escape }}",
+            "permalink" : "{{ post.permalink | xml_escape }}",
+            "title": "{{ post.title | xml_escape }}",
+            "searchlink" : "{{ link | xml_escape }}"
+          },
+        {% endfor %} 
     {% endfor %}
   };
 </script>
