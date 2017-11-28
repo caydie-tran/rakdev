@@ -2,6 +2,7 @@
 layout: ssed
 permalink: /ssed/crash-report/
 weight: 1
+category: crash-report
 ---
 
 
