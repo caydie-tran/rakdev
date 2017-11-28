@@ -23,7 +23,6 @@ push:
   image_path: /assets/images/pull-request.png
   image_caption: Commit/push your changes. Then make a pull request. We will review the changes you've made and then merge them. The changes you made should be automatically deployed shortly after.
 ---
-
 {% include feature_row id="fork" %}
 {% include feature_row id="folder" %}
 {% include feature_row id="pages" %}
