@@ -1,7 +1,7 @@
 ---
-layout: ssed
+layout: table-of-contents
 permalink: /ssed/
-menu: Table of Contents
+title: Table of Contents
 ---
 
 # Table of Contents

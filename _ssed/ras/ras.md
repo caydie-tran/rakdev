@@ -2,8 +2,8 @@
 layout: ssed
 permalink: /ssed/ras/
 weight: 1
+category: ras
 ---
-
 
 ## Ras
 
