@@ -1,0 +1,29 @@
+---
+layout: search
+---
+<form action="{{ "/search.html" | prepend: site.baseurl }}" method="get">
+  <div class="mdl-textfield mdl-js-textfield">
+    <input class="mdl-textfield__input" type="text" id="search-box" name="query">
+    <label class="mdl-textfield__label" for="sample1">Search by Department...</label>
+  </div>
+</form>
+
+<ul id="search-results"></ul>
+
+<script>
+  window.store = {
+    {% for collection in site.collections %}
+      {% assign name = collection.label %}
+        {% for post in site[name] %}
+          {% capture link %}{{ "/rakdev" }}{{ post.permalink }}{% endcapture %}
+          "{{ post.url | slugify }}" : {
+            "layout" : "{{ post.layout | xml_escape }}",
+            "permalink" : "{{ post.permalink | xml_escape }}",
+            "title": "{{ post.title | xml_escape }}",
+            "searchlink" : "{{ link | xml_escape }}"
+          },
+        {% endfor %} 
+    {% endfor %}
+  };
+</script>
+<script src="/rakdev/assets/js/search.js"></script>

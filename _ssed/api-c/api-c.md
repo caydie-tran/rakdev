@@ -1,6 +1,6 @@
 ---
 layout: ssed
-permalink: ssed/api-c/
+permalink: /ssed/api-c/
 weight: 2
 ---
 
