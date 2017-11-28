@@ -30,6 +30,16 @@ include:
 - excerpt: Once you configure the yaml for your feature row you then need to "include" it below your yaml configuration. As you can see in the screenshot above all you need is the name of your feature row which will be your ID. Here is the line that you need to "include" the "row1" feature row.
   image_label: Including your feature row
   image_path: /assets/images/include.jpg
+  list_label: feature row options
+  ul:
+  - bullet: image_label - a title that will be displayed on top of the image that is included in your feature row.
+  - bullet: image_path - your image path. Also takes an image_url as well.
+  - bullet: image_caption - a caption that will be displayed under your image.
+  - bullet: excerpt_label - a title that will be displayed on top of your feature row excerpt. 
+  - bullet: excerpt - paragraph style text. 
+  - bullet: list_label - a title for the unordered list.
+  - bullet: ul - unordered list. 
+  - bullet: codeBlock - for any code snippets you may way to add to the feature row. 
 ---
 
 {% include feature_row id="intro" %}
