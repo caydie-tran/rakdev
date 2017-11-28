@@ -98,7 +98,8 @@
 }
 
 #page-title {
-  color: transparent;  
+  color: transparent; 
+  width: 80%; 
 }
 
 .content {
