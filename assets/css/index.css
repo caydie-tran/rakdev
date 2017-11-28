@@ -235,6 +235,22 @@ p {
 	animation-delay: 1s;
 }
 
+/*------------------------------------*/
+
+ul#navigation {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-item {
+    float: left;
+}
+
+
+input#search-box {
+    color:#333333;
+}
+
 @keyframes animate {
 	0% {
 		width: 0;
