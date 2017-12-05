@@ -1,6 +1,6 @@
 ---
 title: Introduction
-layout: rit
+layout: page
 permalink: /rit/
 
 who:
@@ -17,5 +17,4 @@ who:
   - bullet: Frankfurter short ribs pig meatloaf chuck kielbasa tail rump boudin shoulder.
   - bullet: Ham corned beef rump swine, drumstick bacon salami shoulder.  
 ---
-
 {% include feature_row id="who" %}

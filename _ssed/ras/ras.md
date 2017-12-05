@@ -1,5 +1,5 @@
 ---
-layout: ssed
+layout: page
 permalink: /ssed/ras/
 weight: 1
 category: ras

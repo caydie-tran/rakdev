@@ -1,5 +1,5 @@
 ---
-layout: ssed
+layout: page
 permalink: /ssed/crash-report/
 weight: 1
 category: crash-report

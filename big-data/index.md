@@ -1,5 +1,5 @@
 ---
-layout: big-data
+layout: page
 permalink: /big-data/
 ---
 

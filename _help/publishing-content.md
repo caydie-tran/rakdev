@@ -1,5 +1,5 @@
 ---
-layout: help
+layout: page
 permalink: /help/publishing-content
 title: Publishing Content
 fork:

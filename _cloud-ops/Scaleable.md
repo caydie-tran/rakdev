@@ -1,5 +1,5 @@
 ---
-layout: cloud-ops
+layout: page
 permalink: /cloud-ops/scaleable
 title: Scaleable
 grow:
