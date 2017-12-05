@@ -15,7 +15,7 @@ layout: search
     {% for collection in site.collections %}
       {% assign name = collection.label %}
         {% for post in site[name] %}
-          {% capture link %}{{ "/rakdev" }}{{ post.permalink }}{% endcapture %}
+          {% capture link %}{{ "" }}{{ post.permalink }}{% endcapture %}
           "{{ post.url | slugify }}" : {
             "layout" : "{{ post.layout | xml_escape }}",
             "permalink" : "{{ post.permalink | xml_escape }}",
