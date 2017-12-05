@@ -1,5 +1,5 @@
 ---
-layout: esd
+layout: page
 permalink: /esd/
 ---
 

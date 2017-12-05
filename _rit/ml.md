@@ -1,5 +1,5 @@
 ---
-layout: rit
+layout: page
 title: Machine Learning
 computer:
 - excerpt: Spicy jalapeno bacon ipsum dolor amet drumstick tail filet mignon, shoulder turkey bacon ribeye picanha burgdoggen. Kielbasa fatback shoulder landjaeger t-bone. Tenderloin biltong corned beef tri-tip, ham hock flank bacon ribeye turkey. Landjaeger biltong turducken tongue meatloaf. Frankfurter short ribs pig meatloaf chuck kielbasa tail rump boudin shoulder.
@@ -13,6 +13,7 @@ desc2:
 - excerpt: Chuck pig sirloin andouille, shank jowl ground round drumstick bresaola shoulder flank short loin. T-bone fatback pancetta chuck boudin shank tenderloin landjaeger jerky picanha kielbasa. Meatloaf burgdoggen spare ribs pastrami shankle biltong ham shank. Swine sausage boudin, picanha chicken meatball pork belly tri-tip bacon. Meatball jowl prosciutto, alcatra jerky pork t-bone ball tip burgdoggen pork belly tongue porchetta hamburger. Kevin beef turkey prosciutto. Pastrami ribeye cow pork belly kielbasa porchetta pork, alcatra ball tip tail picanha kevin leberkas.
   codeBlock: function doStuff (parameter) {query.execute(yahret)}
 ---
+
 {% include feature_row id="image" %}
 {% include feature_row id="computer" %}
 {% include feature_row id="desc" %}

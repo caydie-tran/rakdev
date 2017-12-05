@@ -2,7 +2,6 @@
 <html>
   <head>
     {% include head.html %}
-    <link rel="stylesheet" href="/rakdev/assets/css/nav-dropdown.css">
   </head>
   <body>
 
@@ -31,12 +30,11 @@
               <div id="myDropdown" class="dropdown-content">
                 {% for project in site.ssed %}
                   {% if project.category == page.category %}
-                    <a href="/rakdev{{ project.url }}">{{ project.title }}</a>    
+                    <a href="{{ project.url }}">{{ project.title }}</a>    
                   {% endif %}
                 {% endfor %}
               </div>
             </div>
-
             {{ content }}
           </div>
         </div>

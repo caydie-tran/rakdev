@@ -1,5 +1,5 @@
 ---
-layout: security
+layout: page
 permalink: /security/
 ---
 

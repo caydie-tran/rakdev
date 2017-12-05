@@ -1,5 +1,5 @@
 ---
-layout: rit
+layout: page
 title: Natural Language Processing
 top:
 - image_label: Natural Language Processing Applications

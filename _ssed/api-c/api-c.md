@@ -1,5 +1,5 @@
 ---
-layout: ssed
+layout: page
 permalink: /ssed/api-c/
 weight: 2
 category: api-c
