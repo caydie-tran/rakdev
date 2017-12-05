@@ -6,7 +6,25 @@
   </head>
   <body>
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
-      <header class="mdl-layout__header">
+        <header class="mdl-layout__header is-casting-shadow">
+            <div class="mdl-layout__header-row">
+              <h1 id="page-title" class="mdl-typography--title">
+                    <img src="./assets/rakuten-logo.png">
+                  </h1><span class="mdl-layout-title">
+                
+                  
+                
+              <form action="/rakdev/search.html" method="get" style="
+        float: right;
+    ">
+                            <span class="mdl-textfield mdl-js-textfield is-upgraded" data-upgraded=",MaterialTextfield">
+                              <input class="mdl-textfield__input" type="text" id="search-box" name="query">
+                              <label class="mdl-textfield__label" for="sample1">Search by Department...</label>
+                            </span>
+                          </form></span>
+            </div>
+          </header>
+      <!-- <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
           <span class="mdl-layout-title">
             {% if page.title %}
@@ -29,7 +47,7 @@
             {% endif %}
           </span>
         </div>
-      </header>
+      </header> -->
       <main class="mdl-layout__content">
         <div class="page-content">
           <div class="content">
