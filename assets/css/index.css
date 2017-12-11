@@ -35,7 +35,7 @@
 }
 
 .mdl-grid {
-  width: 100%;
+  width: 90%;
   height: 100%;
 }
 
@@ -111,6 +111,7 @@
   padding: 0;
   margin: 0;
   border-radius: 0px;
+  position: relative;
 }
 
 .mdl-grid {
@@ -305,3 +306,73 @@ input#search-box {
 		border-left-color: #fff;
 	}
 }
+
+/**-----------------------------------------------------------------**/
+a.mdl-navigation__link.mdl-typography--text-uppercase {
+  color: #333333;
+}
+
+input#search-box {
+  color: #333333;
+  width: 100%;
+  border: none;
+  height: 40px;
+  background: #ffffff;
+  border-radius: 100px;
+  padding: 8px;
+}
+
+label.mdl-textfield__label {
+  bottom: 0;
+  color: rgba(0,0,0,.26);
+  font-size: 20px;
+  left: 0;
+  right: 0;
+  pointer-events: none;
+  position: absolute;
+  display: block;
+  top: 39px;
+  left: 12px;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-width: 80%;
+  transform: translate(-50%, -50%);
+}
+
+.mdl-textfield {
+  position: relative;
+  font-size: 16px;
+  display: inline-block;
+  box-sizing: border-box;
+  width: 1000px;
+  max-width: 100%;
+  margin: 0;
+  padding: 20px 0;
+}
+
+.mdl-textfield__label:after {
+  background-color: transparent;
+  bottom: 20px;
+  content: '';
+  height: 2px;
+  left: 45%;
+  position: absolute;
+  transition-duration: .2s;
+  transition-timing-function: cubic-bezier(.4,0,.2,1);
+  visibility: hidden;
+  width: 10px;
+}
+
+a {
+  color: #333333;
+  font-weight: 500;
+  text-decoration: none;
+}
+
