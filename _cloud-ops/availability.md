@@ -1,6 +1,5 @@
 ---
 layout: page
-permalink: /cloud-ops/availability
 title: Availability
 available:
 - image_label: Stay Online. 24 / 7
