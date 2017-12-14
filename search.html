@@ -20,7 +20,8 @@ layout: search
             "layout" : "{{ post.layout | xml_escape }}",
             "permalink" : "{{ post.permalink | xml_escape }}",
             "title": "{{ post.title | xml_escape }}",
-            "searchlink" : "{{ link | xml_escape }}"
+            "searchlink" : "{{ link | xml_escape }}", 
+            "content" : "{{ post.cloudcontent | xml_excape }}"
           },
         {% endfor %} 
     {% endfor %}

@@ -7,7 +7,11 @@
 
       for (var i = 0; i < results.length; i++) {  // Iterate over the results
         var item = store[results[i].ref];
+        console.log(item);
         appendString += '<li><a href="' + item.searchlink + '"><h3>' + item.title + '</h3></a>';
+        if (item.content) {
+          appendString += '<p>' + item.content.substring(0, 150) + '...</p></li>';
+        } 
       }
 
       searchResults.innerHTML = appendString;
@@ -37,20 +41,22 @@
     // Initalize lunr with the fields it will be searching on. I've given title
     // a boost of 10 to indicate matches on this field are more important.
     var idx = lunr(function () {
-        this.ref('id');
-        this.field('layout', { boost: 10 });
-        this.field('permalink');
-        this.field('title')
-        this.field('searchlink');
+      this.ref('id');
+      this.field('layout', { boost: 10 });
+      this.field('permalink');
+      this.field('title')
+      this.field('searchlink');
+      this.field('cloudcontent');
 
         for (var key in window.store) { // Add the data to lunr
-            this.add({
-                'id': key,
-                'layout' : window.store[key].layout,
-                'permalink' : window.store[key].permalink, 
-                'title' : window.store[key].title,
-                'searchlink' : window.store[key].permalink
-            });
+          this.add({
+              'id': key,
+              'layout' : window.store[key].layout,
+              'permalink' : window.store[key].permalink, 
+              'title' : window.store[key].title,
+              'searchlink' : window.store[key].permalink,
+              'cloudcontent' : window.store[key].cloudcontent
+          });
         }
     });
 

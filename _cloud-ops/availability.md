@@ -2,6 +2,7 @@
 layout: page
 permalink: /cloud-ops/availability
 title: Availability
+cloudcontent: hello world.
 available:
 - image_label: Stay Online. 24 / 7
   image_path: /assets/images/city.jpg
