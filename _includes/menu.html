@@ -1,9 +1,10 @@
 {% assign dept = page.collection %}
-{% for node in site[dept] %}
+{% assign deptPages = site[dept] %}
+{% for node in deptPages %}
   {% if node.menu or node.title %}
     {% unless node.parent %}
       <a class="mdl-navigation__link parent {% if node.url == page.url or page.parent == node.path %}is-active{% endif %}" href="{{ node.url | absolute_url }}">{% if node.menu %}{{ node.menu }}{% else %}{{ node.title }}{% endif %}</a>
-      {% for child in site[dept] %}
+      {% for child in deptPages %}
         {% if node.menu or node.title %}
           {% if child.parent %}
             {% if child.parent == node.path %}

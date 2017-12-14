@@ -1,5 +1,5 @@
 ---
-title: Helpcenter Mobile
+title: Features
 layout: page
 weight: 3
 ---

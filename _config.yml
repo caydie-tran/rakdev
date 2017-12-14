@@ -58,6 +58,9 @@ collections:
   demo:
     output: true
     permalink: /demo/:path/
+  helpcenter-mobile:
+    output: true
+    permalink: /helpcenter-mobile/:path/
     
 
 # Exclude from processing.

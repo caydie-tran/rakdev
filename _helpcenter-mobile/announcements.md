@@ -1,0 +1,5 @@
+---
+title: Annoucements
+layout: page
+---
+
