@@ -1,8 +1,9 @@
 ---
 title: Ping FAQ
-layout: page
+layout: helpcenter-mobile
 parent: _helpcenter-mobile/faq.md
 categories: [ecosystem, analytics, mobile, android, faq, ping, ios]
+weight: 5
 ---
 
 1. How do I Add and Register new Revisions/Versions of my App?

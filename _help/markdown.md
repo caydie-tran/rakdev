@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: help
 title: Markdown Editor
 top:
 - excerpt_label: Markdown Editor

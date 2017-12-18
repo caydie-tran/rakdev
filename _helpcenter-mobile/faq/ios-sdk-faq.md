@@ -1,8 +1,9 @@
 ---
 title: iOS SDK FAQ
-layout: page
+layout: helpcenter-mobile
 parent: _helpcenter-mobile/faq.md
 categories: [ecosystem, analytics, mobile, ios, faq]
+weight: 7
 ---
 
 1. Is the iOS SDK compatible with RestKit?

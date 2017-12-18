@@ -1,8 +1,9 @@
 ---
 title: Getting Started
-layout: page
+layout: helpcenter-mobile
 parent: _helpcenter-mobile/introduction.md
 categories: [rakuten ecosystem mobile, REM, ecosystem, android, ios, mobile, native, native apps, mobile apps]
+weight: 1
 ---
 
 iOS SDK 2.12.x is guaranteed ATS Compliant

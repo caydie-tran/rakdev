@@ -1,8 +1,9 @@
 ---
 title: Getting started with the portal
-layout: page
+layout: helpcenter-mobile
 parent: _helpcenter-mobile/introduction.md
 categories: [Android, rems, ios, REM, Rakuten Ecosystem Mobile Services]
+weight: 5
 ---
 
 

@@ -1,8 +1,9 @@
 ---
 title: REM SDK FAQs
-layout: page
+layout: helpcenter-mobile
 parent: _helpcenter-mobile/faq.md
 categories: [ecosystem, analytics, mobile, android, faq, general, rem, sdk]
+weight: 2
 ---
 
 1. Can I develop an app for Android Single Sign-On with Rakuten Global ID?

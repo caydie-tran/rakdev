@@ -1,5 +1,7 @@
 ---
 title: Annoucements
-layout: page
+layout: helpcenter-mobile
+weight: 4
+permalink: /helpcenter-mobile/announcements/migration/
 ---
 

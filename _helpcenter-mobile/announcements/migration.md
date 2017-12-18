@@ -1,8 +1,9 @@
 ---
 title: Migration
-layout: page
+layout: helpcenter-mobile
 parent: _helpcenter-mobile/announcements.md
 categories: [ecosystem, analytics, mobile, android, ios, anouncement, general, rem, sdk, migration]
+weight: 1
 ---
 
 

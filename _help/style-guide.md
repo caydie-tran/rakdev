@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: help
 ---
 
 Colons can be used to align columns.

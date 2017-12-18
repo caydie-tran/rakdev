@@ -1,8 +1,9 @@
 ---
 title: Custom Properties
-layout: page
+layout: helpcenter-mobile
 parent: _helpcenter-mobile/features.md
 categories: [Ecosystem, Analytics, Mobile, Android, iOS, configuration, scrm]
+weight: 3
 ---
 
 ## What is the Custom Properties feature?

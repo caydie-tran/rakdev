@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: help
 title: Publishing Content
 fork:
 - image_label: 1. Fork the rakDev repository

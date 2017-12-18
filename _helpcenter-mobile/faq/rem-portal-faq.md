@@ -1,8 +1,9 @@
 ---
 title: REM Portal FAQs
-layout: page
+layout: helpcenter-mobile
 parent: _helpcenter-mobile/faq.md
 categories: [ecosystem, analytics, mobile, android, faq, general, rem]
+weight: 3
 ---
 
 1. Why can't I login or see my Service in REMS?

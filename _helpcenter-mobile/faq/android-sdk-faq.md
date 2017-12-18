@@ -1,13 +1,14 @@
 ---
 title: Android SDK FAQ
-layout: page
+layout: helpcenter-mobile
 parent: _helpcenter-mobile/faq.md
 categories: [ecosystem, analytics, mobile, android, faq]
+weight: 6
 ---
 
 1. How does Android Single Sign-On work?
 
-> The Android User Module uses the Android system Account Manager to store user login information and tokens.
+The Android User Module uses the Android system Account Manager to store user login information and tokens.
 
 Only the first application that uses the User Module can install or upgrade the account authenticator of the user module. All subsequent applications cannot update the account authenticator of the user module, even if they include a newer version of the user Module. This is an Android limitation. For this reason, it is important for developers to always release an update once a new version of the user Module is available, so that all users have the latest version of the User Module.
 
