@@ -12,4 +12,8 @@ No. RestKit requires the 1.3.0 version of AFNetworking.  The iOS SDK is compatib
 
 2. I get an Error Your application is lacking the proper keychain-access-group entitlements.
 
+<<<<<<< HEAD
 Please refer to [Device Information Keychain Setup](http://www.raksdtd.com/ios-sdk/deviceinformation-LATEST/device-information-keychain-setup.html)
+=======
+Please refer to http://www.raksdtd.com/ios-sdk/deviceinformation-LATEST/device-information-keychain-setup.html
+>>>>>>> upstream/master

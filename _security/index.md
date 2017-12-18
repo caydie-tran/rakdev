@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Adding Content By Markdown
+permalink: /security/
 ---
 
 <!-- all projects sorted here -->
