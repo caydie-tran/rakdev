@@ -4,7 +4,7 @@ layout: search
 <form action="{{ "/search.html" | prepend: site.baseurl }}" method="get">
   <div class="mdl-textfield mdl-js-textfield">
     <input class="mdl-textfield__input" type="text" id="search-box" name="query">
-    <label class="mdl-textfield__label" for="sample1">Search by Department...</label>
+    <label class="mdl-textfield__label" for="sample1">Search</label>
   </div>
 </form>
 
@@ -20,7 +20,8 @@ layout: search
             "layout" : "{{ post.layout | xml_escape }}",
             "permalink" : "{{ post.permalink | xml_escape }}",
             "title": "{{ post.title | xml_escape }}",
-            "searchlink" : "{{ link | xml_escape }}"
+            "searchlink" : "{{ link | xml_escape }}", 
+            "content" : "{{ post.cloudcontent | xml_excape }}"
           },
         {% endfor %} 
     {% endfor %}

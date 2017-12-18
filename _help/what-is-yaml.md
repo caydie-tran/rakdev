@@ -1,5 +1,5 @@
 ---
-layout: help
+layout: page
 title: Adding Content By YAML
 intro:
 - image_path: /assets/images/flower.jpg

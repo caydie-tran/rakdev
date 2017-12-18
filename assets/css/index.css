@@ -322,7 +322,7 @@ input#search-box {
   padding: 8px;
 }
 
-label.mdl-textfield__label {
+label#search-label {
   bottom: 0;
   color: rgba(0,0,0,.26);
   font-size: 20px;
@@ -331,11 +331,12 @@ label.mdl-textfield__label {
   pointer-events: none;
   position: absolute;
   display: block;
-  top: 39px;
+  top: 35px;
   left: 12px;
   width: 100%;
   overflow: hidden;
   white-space: nowrap;
+  height: 35px;
 }
 
 form {
@@ -376,3 +377,31 @@ a {
   text-decoration: none;
 }
 
+span.mdl-layout-title {
+  width: 300px;
+}
+
+div#logo-title {
+  float: right;
+  padding-top: 2px;
+  color: #bf0000;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1;
+}
+
+i.material-icons {
+  font-size: 30px;
+}
+
+input#search-box {
+  color: #333333;
+  width: 100%;
+  border: none;
+  height: 40px;
+  background: #ffffff;
+  border-radius: 100px;
+  padding: 8px;
+  text-indent: 35px;
+  font-size: 16px;
+}

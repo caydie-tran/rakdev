@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Adding Content By Markdown
+permalink: /big-data/
 ---
 
 <!-- all projects sorted here -->

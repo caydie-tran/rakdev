@@ -1,1 +1,16 @@
-<p id="copyright">&copy; {{ site.time | date: '%Y' }} {% if site.copyright %}{{ site.copyright }}{% else %}{{ site.title }}{% endif %}</p>
+<footer class="mdl-mini-footer">
+    <div class="mdl-mini-footer__left-section">
+        <div class="mdl-logo">Copyright &copy; 1997-2017 Rakuten, Inc. All Rights Reserved</div>
+        <ul class="mdl-mini-footer__link-list">
+            <li><a href="{{ "/portals/" | prepend: site.baseurl }}">Dev Portal</a></li>  
+            <li><a href="#">Contact: drc-support@mail.rakuten.com</a></li>              
+        </ul>
+    </div>
+</footer>
+
+<style> 
+footer.mdl-mini-footer {
+    position: absolute;
+    width: 100%;
+}
+</style>

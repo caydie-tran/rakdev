@@ -41,7 +41,7 @@ RAT assigns your Account ID. For example, you may use `1` for Rakuten Ichiba Jap
 
 #### Step 2: Install the Rakuten Ecosystem Mobile SDK
 
-You must download and install the Rakuten Ecosystem Mobile SDK into your application€™s codebase before you can add Rakuten Mobile SDK features to your apps. You can download the SDK for your Android or iOS [here](../../01_overview/04_getting_started_with_rem_sdk).
+You must download and install the Rakuten Ecosystem Mobile SDK into your application's codebase before you can add Rakuten Mobile SDK features to your apps. You can download the SDK for your Android or iOS [here](../../01_overview/04_getting_started_with_rem_sdk).
 
 #### Step 3: Integrate the Analytics module and track events
 
