@@ -21,8 +21,8 @@
             <div class="android-navigation-container">
               <nav class="android-navigation mdl-navigation">
                 <a class="mdl-navigation__link mdl-typography--text-uppercase" href="/">Home</a>
-                <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://global.rakuten.com/corp/about/">About</a>
-                <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Support</a>
+                <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://global.rakuten.com/corp/about/">About</a>                
+                <a class="mdl-navigation__link mdl-typography--text-uppercase" href="{{ "/help/" | prepend: site.baseurl }}">Support</a>
               </nav>
             </div>
           </div>
@@ -36,8 +36,8 @@
                   <form action="/search.html" method="get">
                     <span class="mdl-textfield mdl-js-textfield is-upgraded">
                       <input class="mdl-textfield__input" type="text" id="search-box" name="query" autocomplete="off">
-                      <label class="mdl-textfield__label" for="sample1">
-                          <i class="material-icons">search</i>
+                      <label id="search-label">
+                        <i class="material-icons">search</i>
                       </label>
                     </span>
                   </form>

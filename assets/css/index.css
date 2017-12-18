@@ -322,7 +322,7 @@ input#search-box {
   padding: 8px;
 }
 
-label.mdl-textfield__label {
+label#search-label {
   bottom: 0;
   color: rgba(0,0,0,.26);
   font-size: 20px;
@@ -392,4 +392,16 @@ div#logo-title {
 
 i.material-icons {
   font-size: 30px;
+}
+
+input#search-box {
+  color: #333333;
+  width: 100%;
+  border: none;
+  height: 40px;
+  background: #ffffff;
+  border-radius: 100px;
+  padding: 8px;
+  text-indent: 35px;
+  font-size: 16px;
 }
