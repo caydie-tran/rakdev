@@ -4,6 +4,7 @@ title: Markdown Editor
 top:
 - excerpt_label: Markdown Editor
 ---
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
 {% include feature_row id="top" %}
 <textarea></textarea>
 
