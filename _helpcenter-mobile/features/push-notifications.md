@@ -1,8 +1,9 @@
 ---
 title: Push Notification Platform (PNP)
-layout: page
+layout: helpcenter-mobile
 parent: _helpcenter-mobile/features.md
 categories: [Ecosystem, Analytics, Mobile, Android, iOS, pnp, push notification]
+weight: 14
 ---
 
 
@@ -30,7 +31,7 @@ Here's how it works:
 
 The app requests to unregister or stop receiving messages using the same process.
 
-## Sending Push Notificationsâ€” Internal API Invocation
+## Sending Push Notifications Internal API Invocation
 
 1.  The server of the app tells PNP that it wants to send a message to a target. This message can be composed programmatically or manually via the [PNP Dashboard](https://confluence.rakuten-it.com/confluence/display/PNPD/PNP+Dashboard+Links).
 2.  PNP authorizes the PNP Credentials of the app and queues the request to send to Google Cloud Messaging (GCM) Service or Apple Push Notification Service (APNS). The GCM key or APNS certificate of the app is used in this step.

@@ -1,13 +1,14 @@
 ---
 title: Feedback
-layout: page
+layout: helpcenter-mobile
 parent: _helpcenter-mobile/features.md
 categories: [Ecosystem, Analytics, Mobile, Android, iOS, feedback, in-app, sdk]
+weight: 8
 ---
 
 ## What is Feedback?
 
-**Feedback** is a service provided by the **Rakuten Ecosystem Mobile** that enables developers to get direct input from users on the usability and functionality of their mobile applications. Hereâ€™s how it works:
+**Feedback** is a service provided by the **Rakuten Ecosystem Mobile** that enables developers to get direct input from users on the usability and functionality of their mobile applications. Here's how it works:
 
 1.  Users send application feedback, including bug reports, feature requests, and general comments.
 2.  Feedback data is stored by Rakuten Ecosystem Mobile Services (REMS).

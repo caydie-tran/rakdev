@@ -1,8 +1,9 @@
 ---
 title: What is REM?
-layout: page
+layout: helpcenter-mobile
 parent: _helpcenter-mobile/introduction.md
 categories: [rakuten ecosystem mobile, REM, ecosystem, android, ios, mobile]
+weight: 2
 ---
 
 ## Overview
@@ -11,7 +12,7 @@ categories: [rakuten ecosystem mobile, REM, ecosystem, android, ios, mobile]
 
 Rakuten Ecosystem Mobile, or REM, is defined as:
 
-> **A global mobile experience that empowers users with fast, effective, and uniform Rakuten services.**
+**A global mobile experience that empowers users with fast, effective, and uniform Rakuten services.**
 
 Rakuten Ecosystem Mobile Services (REMS) is an easy-to-use collection of helpful mobile features hosted in the public cloud for use by mobile business and developer teams throughout Rakuten. By leveraging public cloud technology, REMS helps Rakuten app teams realize new features and assists in the rapid deployment of Rakuten apps to new markets.
 
@@ -26,7 +27,7 @@ REM is currently focused on:
 
 Rakuten currently has over 100 business divisions, and mobile functionality is at the center of providing these services to our users. There are well over 100 native mobile apps across different platforms €” Android, iOS and Windows €” and devices: tablets, mobile phones, and desktop computers.
 
-> REM is at the forefront of delivering a best-in-class unified user experience across the entire Rakuten landscape.
+REM is at the forefront of delivering a best-in-class unified user experience across the entire Rakuten landscape.
 
 REM achieves this by providing ready-to-adopt features for user engagement, content delivery, analytics, performance and third party tool integrations.
 

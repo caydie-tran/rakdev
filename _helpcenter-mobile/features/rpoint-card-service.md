@@ -1,8 +1,9 @@
 ---
 title: RPoint Card Service
-layout: page
+layout: helpcenter-mobile
 parent: _helpcenter-mobile/features.md
 categories: [Ecosystem, Analytics, Mobile, Android, iOS, RPoint, RPoint card service]
+weight: 10
 ---
 
 ## What is RPointCard Service?
@@ -37,7 +38,7 @@ Unique barcodes are automatically generated and assigned to users for a period o
 | Scenario | User Interface|  |
 | -- | -- | -- |
 | Barcode displayed to user  | ![Barcode Displayed to user](../images/img_rpointcard_barcode_displayed_to_user.png) | |
-| Black-list screen displayed to users on unapproved devices | ![Black list screen ](../images/img_rpointcard_black_list_screen.png) | During testing (QA) phase if it is dicovered that a certain type of device does not works with scanners (which scan the bar code), it is black listed. The app will get installed but the barcode won€™t appear. |
+| Black-list screen displayed to users on unapproved devices | ![Black list screen ](../images/img_rpointcard_black_list_screen.png) | During testing (QA) phase if it is dicovered that a certain type of device does not works with scanners (which scan the bar code), it is black listed. The app will get installed but the barcode won't appear. |
 | Gray-list screen displayed to users on untested devices | ![Grey list screen ](../images/img_rpointcard_grey_list_error.png) | During testing (QA) phase if it is discovered that a certain type of device has low €œscanability€ with scanners (which scan the bar code), it is grey listed. For grey listed devices, a warning message is shown to the user before displaying bar code. User can cancel this message and view the bar code. |
 | Maintenance message displayed to users when applicable | ![Maintainance Mode](../images/img_rpointcard_maintainance_mode.png) | |
 

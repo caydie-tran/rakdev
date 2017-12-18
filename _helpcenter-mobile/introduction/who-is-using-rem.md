@@ -1,8 +1,9 @@
 ---
 title: Who is using REM?
-layout: page
+layout: helpcenter-mobile
 parent: _helpcenter-mobile/introduction.md
 categories: [rakuten ecosystem mobile, REM, ecosystem, android, ios, mobile, REM users, users]
+weight: 3
 ---
 
 Currently, over 70 distinct mobile applications use Rakuten Ecosystem Mobile services and features. Here are a few examples of apps that use Rakuten Ecosystem Mobile:

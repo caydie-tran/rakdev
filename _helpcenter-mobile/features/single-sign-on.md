@@ -1,8 +1,9 @@
 ---
 title: Authentication with Single Sign-on
-layout: page
+layout: helpcenter-mobile
 parent: _helpcenter-mobile/features.md
 categories: [Ecosystem, Analytics, Mobile, Android, iOS, SSO, single sign on, authentication]
+weight: 13
 ---
 
 ## What is User Authentication?
@@ -38,7 +39,7 @@ Rakuten's membership program is the cornerstone of the Rakuten Ecosystem. A user
 
 Many users may not want to create a different Rakuten ID just for your application. User Authentication is the easiest way for users to log into your application without juggling different accounts. 
 
-![sso mobile app](../images/_img_sso_mobile_app_ui_169_300.png)
+![sso mobile app](../images/img_sso_mobile_app_ui_169_300.png)
 
 #### Seamlessly transition between Rakuten applications
 

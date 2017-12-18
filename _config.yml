@@ -34,24 +34,6 @@ collections:
   help:
     output: true
     permalink: /help/:path/
-  ssed:
-    output: true
-    permalink: /ssed/:path/
-  rit:
-    output: true
-    permalink: /rit/:path/
-  cloud-ops:
-    output: true
-    permalink: /cloud-ops/:path/
-  esd:
-    output: true
-    permalink: /esd/:path/
-  security:
-    output: true
-    permalink: /security/:path/
-  big-data:
-    output: true
-    permalink: /big-data/:path/
   portals:
     output: true 
     permalink: /portals/:path/

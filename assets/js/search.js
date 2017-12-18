@@ -41,6 +41,22 @@
     // Initalize lunr with the fields it will be searching on. I've given title
     // a boost of 10 to indicate matches on this field are more important.
     var idx = lunr(function () {
+<<<<<<< HEAD
+        this.ref('id');
+        this.field('layout', { boost: 10 });
+        this.field('permalink');
+        this.field('title')
+        this.field('searchlink');
+
+        for (var key in window.store) { // Add the data to lunr
+            this.add({
+                'id': key,
+                'layout' : window.store[key].layout,
+                'permalink' : window.store[key].permalink, 
+                'title' : window.store[key].title,
+                'searchlink' : window.store[key].permalink
+            });
+=======
       this.ref('id');
       this.field('layout', { boost: 10 });
       this.field('permalink');
@@ -57,10 +73,15 @@
               'searchlink' : window.store[key].permalink,
               'cloudcontent' : window.store[key].cloudcontent
           });
+>>>>>>> upstream/master
         }
     });
 
     var results = idx.search(searchTerm); // Get lunr to perform a search
     displaySearchResults(results, window.store); // We'll write this in the next section
+<<<<<<< HEAD
+    
+=======
+>>>>>>> upstream/master
   }
 })();

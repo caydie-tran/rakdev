@@ -1,8 +1,9 @@
 ---
 title: Rakuten Super Points SDK
-layout: page
+layout: helpcenter-mobile
 parent: _helpcenter-mobile/features.md
 categories: [Ecosystem, Analytics, Mobile, Android, iOS, rakuten super points, super points, points]
+weight: 11
 ---
 
 ## What is Super Points SDK?
@@ -45,7 +46,7 @@ After the **Rakuten Ecosystem Mobile SDK** is installed in your application, you
 
 #### Test Points:
 
-To test **Points**, simply sign into your app with a Rakuten ID. If your app displays the accurate Points information of the Rakuten ID, the **Points module **is working correctly.
+To test **Points**, simply sign into your app with a Rakuten ID. If your app displays the accurate Points information of the Rakuten ID, the **Points module ** is working correctly.
 
 ## Additional Resources
 

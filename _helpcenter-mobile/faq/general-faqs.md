@@ -1,8 +1,9 @@
 ---
 title: General FAQs
-layout: page
+layout: helpcenter-mobile
 parent: _helpcenter-mobile/faq.md
 categories: [ecosystem, analytics, mobile, android, faq]
+weight: 1
 ---
 
 1.  How do the elements of Rakuten Ecosystem Mobile (REM) interact with each other?

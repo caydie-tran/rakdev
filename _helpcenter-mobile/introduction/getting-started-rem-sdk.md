@@ -1,8 +1,9 @@
 ---
 title: Getting started with REM SDK
-layout: page
+layout: helpcenter-mobile
 parent: _helpcenter-mobile/introduction.md
 categories: [Android, iOS, SDK, REM, tutorial]
+weight: 4
 ---
 
 This page is your gateway to using the **Rakuten Ecosystem Mobile SDK (REM SDK)** in your iOS or Android apps. You need certain app credentials depending on the REM SDK features you use to integrate the SDK in your app.
@@ -17,9 +18,9 @@ Following Semantic Versioning helps the REM team to provide a better support and
 ## REM SDK Technical Documentation
 See the iOS and Android platform specific pages for links to the REM SDK, tutorial articles and developer documentation:
 
-![Android icon](img_android_icon.png) [Android SDK API Reference Documentation](http://raksdtd.com/android-sdk/)
+![Android icon](../images/img_android_icon.png) [Android SDK API Reference Documentation](http://raksdtd.com/android-sdk/)
 
-![iOS icon](img_ios_icon.png) [iOS SDK API Reference Documentation](http://www.raksdtd.com/ios-sdk/)
+![iOS icon](../images/img_ios_icon.png) [iOS SDK API Reference Documentation](http://www.raksdtd.com/ios-sdk/)
 
 
 ## App Credentials
@@ -46,7 +47,7 @@ For details, please read below
 Make sure that the necessary scopes are granted for your application.
 Request RAE Scopes from [here](https://developers.rakuten.com/hc/en-us/articles/115005020348-Client-ID-Management-Module-Dashboard-User-Guide-for-Rakuten-App-Engine-RAE-).
 
-*   memberinfo_read_name €“ required scope for login on iOS
+*   memberinfo_read_name “ required scope for login on iOS
 
 ### Ping Application ID
 

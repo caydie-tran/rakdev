@@ -1,8 +1,9 @@
 ---
 title: Rakuten Super Points SDK - Android Integration
-layout: page
+layout: helpcenter-mobile
 parent: _helpcenter-mobile/features.md
 categories: [Ecosystem, Analytics, Mobile, Android, iOS, rakuten super points, super points, points]
+weight: 12
 ---
 
 The Android Points Module provides a UI for querying point and member status information for users logged in with their Rakuten ID.
@@ -126,6 +127,3 @@ Our Javadoc can be found at [http://www.raksdtd.com/android-sdk/points-latest/](
 * [Android tutorial](../13_super_points_android_integration)
 * [iOS tutorial](../14_super_points_ios_integration)
 
-
-For all other inquiries, contact via
-[Inquiry Form](https://developers.rakuten.com/hc/en-us/requests/new?ticket_form_id=399907

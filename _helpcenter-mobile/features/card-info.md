@@ -1,8 +1,9 @@
 ---
 title: Card Info
-layout: page
+layout: helpcenter-mobile
 parent: _helpcenter-mobile/features.md
 categories: [ecosystem, card, mobile, android, ios, card, card info]
+weight: 2
 ---
 
 ## What is Card Info?
@@ -13,7 +14,7 @@ CardInfo is a REM SDK module that enables users to enter their credit card infor
 *   Associate the scanned credit card number to a credit card type
 *   Scan the credit card expiration month and year
 
-![scan card UI](../images/img_scan_card_ui_174_300.jpg)[Â ](http://www.raksdtd.com/wp-content/uploads/2016/09/scan-result-UI.jpg)![scan result UI](../images/img_scan_result_ui_173_300.jpg)
+![scan card UI](../images/img_scan_card_ui_174_300.jpg)[ ](http://www.raksdtd.com/wp-content/uploads/2016/09/scan-result-UI.jpg)![scan result UI](../images/img_scan_result_ui_173_300.jpg)
 
 ## Software and Hardware Requirements
 
@@ -27,7 +28,7 @@ CardInfo is a REM SDK module that enables users to enter their credit card infor
 
 #### 1. Set the required credit card information
 
-YouÂ can set which credit card information is required from your users:
+You can set which credit card information is required from your users:
 
 *   Credit card Number
 *   Credit card Type
@@ -37,7 +38,7 @@ YouÂ can set which credit card information is required from your users:
 
 #### 2. Set supported credit card types
 
-You can set which credit card typesÂ are accepted:
+You can set which credit card types are accepted:
 
 *   American Express
 *   Diners Club
@@ -52,7 +53,7 @@ Using the camera on their mobile device, the user scans their credit card.
 
 #### 4. User confirms card information
 
-A confirmation UI screen appears, and the user confirms the credit card that they scanned. They may also enterÂ credit card information that was not scanned,Â such as the CVVÂ number.
+A confirmation UI screen appears, and the user confirms the credit card that they scanned. They may also enter credit card information that was not scanned, such as the CVV number.
 
 ## Why Should I Use CardInfo?
 

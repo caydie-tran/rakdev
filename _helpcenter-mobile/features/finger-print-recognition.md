@@ -1,8 +1,9 @@
 ---
 title: Finger Print Recognition
-layout: page
+layout: helpcenter-mobile
 parent: _helpcenter-mobile/features.md
 categories: [Ecosystem, Analytics, Mobile, Android, iOS, finger print, authentication, biometric]
+weight: 9
 ---
 
 # What is Touch ID and Fingerprint Recognition?
@@ -28,7 +29,7 @@ Fingerprint recognition is a great way to simplify the login process for your us
 
 # How does Fingerprint Recognition work?
 
-Let's say a user is performing a sensitive task â€” such as changing account details, viewing payment details or changing a delivery address â€” and the app needs to re-confirm the user's identify.
+Let's say a user is performing a sensitive task such as changing account details, viewing payment details or changing a delivery address and the app needs to re-confirm the user's identify.
 
 The user is presented with the following dialog box:
 

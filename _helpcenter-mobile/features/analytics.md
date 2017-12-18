@@ -1,8 +1,9 @@
 ---
 title: What is Analytics?
-layout: page
+layout: helpcenter-mobile
 parent: _helpcenter-mobile/features.md
 categories: [Ecosystem, Analytics, Mobile, Android, iOS]
+weight: 1
 ---
 
 ## What is Analytics?
@@ -34,13 +35,13 @@ The Analytics module stores its data on the Rakuten Analytics Tracker to protect
 
 #### Step 1: Obtain credentials and ID
 
-You need a RAT account â€” which includes an account ID, and service ID â€” to use Analytics. You can get a RAT account by filling out the [RAT Introduction Application Form](https://confluence.rakuten-it.com/confluence/display/RAT/RAT+Introduction+Application+Form). 
+You need a RAT account which includes an account ID, and service ID to use Analytics. You can get a RAT account by filling out the [RAT Introduction Application Form](https://confluence.rakuten-it.com/confluence/display/RAT/RAT+Introduction+Application+Form). 
 
 RAT assigns your Account ID. For example, you may use `1` for Rakuten Ichiba Japan, and `3` for Rakuten Books. A single account may have multiple services. You may want to consult with the account owner about naming the new service ID.
 
 #### Step 2: Install the Rakuten Ecosystem Mobile SDK
 
-You must download and install the Rakuten Ecosystem Mobile SDK into your applicationâ€™s codebase before you can add Rakuten Mobile SDK features to your apps. You can download the SDK for your Android or iOS [here](../../01_overview/04_getting_started_with_rem_sdk).
+You must download and install the Rakuten Ecosystem Mobile SDK into your application's codebase before you can add Rakuten Mobile SDK features to your apps. You can download the SDK for your Android or iOS [here](../../01_overview/04_getting_started_with_rem_sdk).
 
 #### Step 3: Integrate the Analytics module and track events
 
@@ -71,10 +72,10 @@ See the [SDK Tracking Specification for RAT](https://confluence.rakuten-it.com/c
 
 ## How do I report issues with Analytics?
 
-You can report SDK issues through ourÂ [inquiry form](https://rakuten-esd.zendesk.com/hc/en-us/requests/new?ticket_form_id=399907)
+You can report SDK issues through our [inquiry form](https://rakuten-esd.zendesk.com/hc/en-us/requests/new?ticket_form_id=399907)
 
 
-### AdditionalÂ Resources
+### Additional Resources
 
 [Android SDK Reference Documentation](http://www.raksdtd.com/android-sdk/)
 

@@ -1,8 +1,9 @@
 ---
 title: Discover FAQ
-layout: page
+layout: helpcenter-mobile
 parent: _helpcenter-mobile/faq.md
 categories: [ecosystem, analytics, mobile, android, faq, discover]
+weight: 4
 ---
 
 1. I am a BU, what do I need to integrate Discover in my App?

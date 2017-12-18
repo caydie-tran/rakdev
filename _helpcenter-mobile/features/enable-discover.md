@@ -1,8 +1,9 @@
 ---
 title: Discover Enablement
-layout: page
+layout: helpcenter-mobile
 parent: _helpcenter-mobile/features.md
 categories: [Ecosystem, Analytics, Mobile, Android, iOS, discover, cross promotion]
+weight: 7
 ---
 
 
@@ -25,16 +26,16 @@ The Request Approved email includes required information to integrate Discover i
 *   Link to Integrate Discover for Developers
 
 
-## 3.Â Configure Discover in REMS Portal
+## 3. Configure Discover in REMS Portal
 
 Please refer to [Configure Discover for Business Units](../../02_features/07_configure_discover_bu).
 
-## 4.Â Integrate Discover into the App
+## 4. Integrate Discover into the App
 
 Please refer to the Developer Guides to integrate Discover. 
 
-* Android SDK:Â [http://www.raksdtd.com/android-sdk/discover-LATEST/](http://www.raksdtd.com/android-sdk/discover-LATEST/) 
-* iOS SDK: Â [http://www.raksdtd.com/ios-sdk/discover-LATEST/](http://www.raksdtd.com/ios-sdk/discover-LATEST/)
+* Android SDK: [http://www.raksdtd.com/android-sdk/discover-LATEST/](http://www.raksdtd.com/android-sdk/discover-LATEST/) 
+* iOS SDK:  [http://www.raksdtd.com/ios-sdk/discover-LATEST/](http://www.raksdtd.com/ios-sdk/discover-LATEST/)
 
 
 

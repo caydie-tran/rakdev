@@ -1,8 +1,9 @@
 ---
 title: Discover
-layout: page
+layout: helpcenter-mobile
 parent: _helpcenter-mobile/features.md
 categories: [Ecosystem, Analytics, Mobile, Android, iOS, discover, cross promotion]
+weight: 5
 ---
 
 ## What is Discover?
