@@ -3,6 +3,7 @@
   <head>
     {% include head.html %}
     <link rel="stylesheet" href="/assets/css/nav-dropdown.css">
+    <link rel="stylesheet" href="/assets/css/product.css">    
   </head>
   <body>
 
@@ -10,7 +11,7 @@
       <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
           <span class="mdl-layout-title">
-            {% if page.title %}<h1 id="page-title" class="mdl-typography--title">ESD Helpcenter Mobile</h1>{% endif %}
+            {% if page.title %}<h1 id="page-title" class="mdl-typography--title">{{page.title}}</h1>{% endif %}
           </span>
         </div>
       </header>

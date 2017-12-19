@@ -45,6 +45,7 @@
   font-size: medium;
   font-weight: bold;
   color: #404040;
+  text-align: center;
 }
 
 .project-description {
@@ -71,6 +72,13 @@
   font-weight: bold;
   font-size: xx-large;
   color: #404040;
+}
+
+hr {
+  margin-top: 0;
+  margin-bottom: 30px;
+  width: 80%;
+  margin-left: 10%;
 }
 
 .button-container {
@@ -404,4 +412,21 @@ input#search-box {
   padding: 8px;
   text-indent: 35px;
   font-size: 16px;
+}
+
+@media only screen and (max-device-width: 480px) {
+  .mdl-navigation__link {
+    display: none !important;
+  }
+
+  .mdl-mini-footer {
+    padding-left: 0;
+    font-size: 13px;
+    text-align: left !important;
+    padding-left: 5%;
+  }
+
+  .mdl-logo {
+    margin-bottom: 0;
+  }
 }
