@@ -2,7 +2,8 @@
 title: Getting Started
 layout: helpcenter-mobile
 parent: _helpcenter-mobile/introduction.md
-categories: [rakuten ecosystem mobile, REM, ecosystem, android, ios, mobile, native, native apps, mobile apps]
+categories: [rakuten ecosystem mobile REM ecosystem android ios mobile native apps mobile apps]
+permalink: /helpcenter-mobile/introduction/getting-started/
 weight: 1
 ---
 

@@ -2,7 +2,8 @@
 title: Discover FAQ
 layout: helpcenter-mobile
 parent: _helpcenter-mobile/faq.md
-categories: [ecosystem, analytics, mobile, android, faq, discover]
+categories: [ecosystem analytics mobile android faq discover]
+permalink: helpcenter-mobile/faq/discover-faq/
 weight: 4
 ---
 

@@ -2,7 +2,8 @@
 title: Discover
 layout: helpcenter-mobile
 parent: _helpcenter-mobile/features.md
-categories: [Ecosystem, Analytics, Mobile, Android, iOS, discover, cross promotion]
+categories: [Ecosystem Analytics Mobile Android iOS discover cross promotion]
+permalink: /helpcenter-mobile/features/discover/
 weight: 5
 ---
 

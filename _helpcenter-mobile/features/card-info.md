@@ -2,7 +2,8 @@
 title: Card Info
 layout: helpcenter-mobile
 parent: _helpcenter-mobile/features.md
-categories: [ecosystem, card, mobile, android, ios, card, card info]
+categories: [ecosystem card mobile android ios card card info]
+permalink: /helpcenter-mobile/features/card-info/
 weight: 2
 ---
 

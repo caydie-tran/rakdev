@@ -2,8 +2,9 @@
 title: Android SDK FAQ
 layout: helpcenter-mobile
 parent: _helpcenter-mobile/faq.md
-categories: [ecosystem, analytics, mobile, android, faq]
+categories: [ecosystem analytics mobile android faq single sign on]
 weight: 6
+permalink: helpcenter-mobile/faq/android-sdk-faq/
 ---
 
 1. How does Android Single Sign-On work?

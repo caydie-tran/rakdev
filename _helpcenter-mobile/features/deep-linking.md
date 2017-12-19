@@ -2,7 +2,8 @@
 title: Deep Linking
 layout: helpcenter-mobile
 parent: _helpcenter-mobile/features.md
-categories: [Ecosystem, Analytics, Mobile, Android, iOS, deep linking]
+categories: [Ecosystem Analytics Mobile Android iOS deep linking]
+permalink: /helpcenter-mobile/features/deep-linking/
 weight: 4
 ---
 

@@ -2,7 +2,8 @@
 title: RPoint Card Service
 layout: helpcenter-mobile
 parent: _helpcenter-mobile/features.md
-categories: [Ecosystem, Analytics, Mobile, Android, iOS, RPoint, RPoint card service]
+categories: [Ecosystem Analytics Mobile Android iOS RPoint RPoint card service]
+permalink: /helpcenter-mobile/features/rpoint-card-service/
 weight: 10
 ---
 

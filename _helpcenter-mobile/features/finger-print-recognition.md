@@ -2,7 +2,8 @@
 title: Finger Print Recognition
 layout: helpcenter-mobile
 parent: _helpcenter-mobile/features.md
-categories: [Ecosystem, Analytics, Mobile, Android, iOS, finger print, authentication, biometric]
+categories: [Ecosystem Analytics Mobile Android iOS finger print authentication biometric]
+permalink: /helpcenter-mobile/features/finger-print-recognition/
 weight: 9
 ---
 
