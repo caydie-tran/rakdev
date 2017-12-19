@@ -1,0 +1,12 @@
+@media only screen and (max-device-width: 480px) {
+    .mdl-mini-footer {
+        padding-left: 0;
+        font-size: 13px;
+        text-align: left !important;
+        padding-left: 5%;
+    }
+
+    .mdl-logo {
+       margin-bottom: 0;
+    }
+}
