@@ -2,7 +2,8 @@
 title: Custom Properties
 layout: helpcenter-mobile
 parent: _helpcenter-mobile/features.md
-categories: [Ecosystem, Analytics, Mobile, Android, iOS, configuration, scrm]
+categories: [Ecosystem Analytics Mobile Android iOS configuration scrm]
+permalink: /helpcenter-mobile/features/custom-properties/
 weight: 3
 ---
 

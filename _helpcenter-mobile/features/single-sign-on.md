@@ -2,7 +2,8 @@
 title: Authentication with Single Sign-on
 layout: helpcenter-mobile
 parent: _helpcenter-mobile/features.md
-categories: [Ecosystem, Analytics, Mobile, Android, iOS, SSO, single sign on, authentication]
+categories: [Ecosystem Analytics Mobile Android iOS SSO single sign on authentication]
+permalink: /helpcenter-mobile/features/single-sign-on/
 weight: 13
 ---
 

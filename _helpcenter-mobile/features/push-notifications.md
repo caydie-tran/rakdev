@@ -2,7 +2,8 @@
 title: Push Notification Platform (PNP)
 layout: helpcenter-mobile
 parent: _helpcenter-mobile/features.md
-categories: [Ecosystem, Analytics, Mobile, Android, iOS, pnp, push notification]
+categories: [Ecosystem Analytics Mobile Android iOS pnp push notification]
+permalink: /helpcenter-mobile/features/push-notifications/
 weight: 14
 ---
 

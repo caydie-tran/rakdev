@@ -2,7 +2,8 @@
 title: Ping FAQ
 layout: helpcenter-mobile
 parent: _helpcenter-mobile/faq.md
-categories: [ecosystem, analytics, mobile, android, faq, ping, ios]
+categories: [ecosystem analytics mobile android faq ping ios]
+permalink: helpcenter-mobile/faq/ping-service-faq/
 weight: 5
 ---
 

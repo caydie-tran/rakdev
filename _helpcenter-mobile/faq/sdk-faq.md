@@ -2,7 +2,8 @@
 title: REM SDK FAQs
 layout: helpcenter-mobile
 parent: _helpcenter-mobile/faq.md
-categories: [ecosystem, analytics, mobile, android, faq, general, rem, sdk]
+categories: [ecosystem analytics mobile android faq general rem sdk]
+permalink: helpcenter-mobile/faq/sdk-faq/
 weight: 2
 ---
 

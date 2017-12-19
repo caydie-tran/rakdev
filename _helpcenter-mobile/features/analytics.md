@@ -2,7 +2,8 @@
 title: What is Analytics?
 layout: helpcenter-mobile
 parent: _helpcenter-mobile/features.md
-categories: [Ecosystem, Analytics, Mobile, Android, iOS]
+categories: [Ecosystem Analytics Mobile Android iOS]
+permalink: /helpcenter-mobile/features/analytics/
 weight: 1
 ---
 

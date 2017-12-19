@@ -2,7 +2,8 @@
 title: REM Portal FAQs
 layout: helpcenter-mobile
 parent: _helpcenter-mobile/faq.md
-categories: [ecosystem, analytics, mobile, android, faq, general, rem]
+categories: [ecosystem analytics mobile android faq general rem]
+permalink: helpcenter-mobile/faq/rem-portal-faq/
 weight: 3
 ---
 

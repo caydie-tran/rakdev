@@ -2,7 +2,8 @@
 title: iOS SDK FAQ
 layout: helpcenter-mobile
 parent: _helpcenter-mobile/faq.md
-categories: [ecosystem, analytics, mobile, ios, faq]
+categories: [ecosystem analytics mobile ios faq]
+permalink: helpcenter-mobile/faq/ios-sdk-faq/
 weight: 7
 ---
 

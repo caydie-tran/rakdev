@@ -2,7 +2,8 @@
 title: Feedback
 layout: helpcenter-mobile
 parent: _helpcenter-mobile/features.md
-categories: [Ecosystem, Analytics, Mobile, Android, iOS, feedback, in-app, sdk]
+categories: [Ecosystem Analytics Mobile Android iOS feedback in-app sdk]
+permalink: /helpcenter-mobile/features/feedback/
 weight: 8
 ---
 

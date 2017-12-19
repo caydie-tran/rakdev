@@ -2,7 +2,8 @@
 title: Who is using REM?
 layout: helpcenter-mobile
 parent: _helpcenter-mobile/introduction.md
-categories: [rakuten ecosystem mobile, REM, ecosystem, android, ios, mobile, REM users, users]
+categories: [rakuten ecosystem mobile REM ecosystem android ios mobile REM users]
+permalink: /helpcenter-mobile/introduction/who-is-using-rem/
 weight: 3
 ---
 

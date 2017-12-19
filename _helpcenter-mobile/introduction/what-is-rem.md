@@ -2,7 +2,8 @@
 title: What is REM?
 layout: helpcenter-mobile
 parent: _helpcenter-mobile/introduction.md
-categories: [rakuten ecosystem mobile, REM, ecosystem, android, ios, mobile]
+categories: [rakuten ecosystem mobile REM ecosystem android ios mobile]
+permalink: /helpcenter-mobile/introduction/what-is-rem/
 weight: 2
 ---
 

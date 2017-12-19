@@ -2,7 +2,8 @@
 title: General FAQs
 layout: helpcenter-mobile
 parent: _helpcenter-mobile/faq.md
-categories: [ecosystem, analytics, mobile, android, faq]
+categories: [ecosystem analytics mobile android faq]
+permalink: helpcenter-mobile/faq/general-faqs/
 weight: 1
 ---
 

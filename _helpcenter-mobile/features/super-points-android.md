@@ -2,7 +2,8 @@
 title: Rakuten Super Points SDK - Android Integration
 layout: helpcenter-mobile
 parent: _helpcenter-mobile/features.md
-categories: [Ecosystem, Analytics, Mobile, Android, iOS, rakuten super points, super points, points]
+categories: [Ecosystem Analytics Mobile Android iOS rakuten super points]
+permalink: /helpcenter-mobile/features/super-points-android/
 weight: 12
 ---
 

@@ -2,7 +2,8 @@
 title: Discover Configuration
 layout: helpcenter-mobile
 parent: _helpcenter-mobile/features.md
-categories: [Ecosystem, Analytics, Mobile, Android, iOS, discover, cross promotion]
+categories: [Ecosystem Analytics Mobile Android iOS discover cross promotion]
+permalink: /helpcenter-mobile/features/discover-configuration/
 weight: 6
 ---
 

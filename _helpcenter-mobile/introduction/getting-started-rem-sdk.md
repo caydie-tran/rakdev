@@ -2,7 +2,8 @@
 title: Getting started with REM SDK
 layout: helpcenter-mobile
 parent: _helpcenter-mobile/introduction.md
-categories: [Android, iOS, SDK, REM, tutorial]
+categories: [Android iOS SDK REM tutorial]
+permalink: /helpcenter-mobile/introduction/getting-started-rem-sdk/
 weight: 4
 ---
 
