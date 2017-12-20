@@ -2,15 +2,30 @@
     <div class="mdl-mini-footer__left-section">
         <div class="mdl-logo">Copyright &copy; 1997-2017 Rakuten, Inc. All Rights Reserved</div>
         <ul class="mdl-mini-footer__link-list">
-            <li><a href="{{ "/portals/" | prepend: site.baseurl }}">Dev Portal</a></li>  
             <li><a href="#">Contact: drc-support@mail.rakuten.com</a></li>              
         </ul>
     </div>
 </footer>
 
-<style> 
+<style>
 footer.mdl-mini-footer {
     position: absolute;
     width: 100%;
+    color: #999999;
+    background-color: #f5f5f5;
+}
+
+.mdl-mini-footer .mdl-logo {
+    line-height: 36px;
+    color: #999999;
+}
+
+.mdl-mini-footer__left-section {
+    width: 100%;
+}
+
+ul.mdl-mini-footer__link-list {
+    float: right;
+    padding-right: 16px;
 }
 </style>
