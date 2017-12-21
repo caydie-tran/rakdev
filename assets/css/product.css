@@ -9,4 +9,16 @@
     .mdl-logo {
       margin-bottom: 0;
     }
+
+    .android-navigation-container {
+      display: none;
+    }
+
+    .search {
+      display: none;
+    }
+
+    .mdl-layout-title {
+      width: 300px !important;
+    }
 }
