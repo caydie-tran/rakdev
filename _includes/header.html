@@ -11,75 +11,76 @@
         <div class="search">
             <form action="/search.html" method="get">
                 <span class="mdl-textfield mdl-js-textfield is-upgraded">
-                <input class="mdl-textfield__input" type="text" id="search-box" name="query" autocomplete="off">
-                <label class="mdl-textfield__label" for="sample1">
-                    Search
-                </label>
+                    <input class="mdl-textfield__input" type="text" id="search-box" name="query" autocomplete="off">
+                    <label class="mdl-textfield__label" for="sample1">
+                        Search
+                    </label>
                 </span>
             </form>
         </div>
         <div class="mdl-layout-spacer"></div>
         <div class="android-navigation-container">
-        <nav class="android-navigation mdl-navigation">
-            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="/">Home</a>
-            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://global.rakuten.com/corp/about/">About</a>                
-            <a class="mdl-navigation__link mdl-typography--text-uppercase" href="{{ "/help/" | prepend: site.baseurl }}">Support</a>
-        </nav>
+            <nav class="android-navigation mdl-navigation">
+                <a class="mdl-navigation__link mdl-typography--text-uppercase" href="/">Home</a>
+                <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://global.rakuten.com/corp/about/">About</a>
+                <a class="mdl-navigation__link mdl-typography--text-uppercase" href="{{ " /help/ " | prepend: site.baseurl }}">Support</a>
+            </nav>
         </div>
     </div>
 </div>
 
-<style> 
-.mdl-layout__header-row {
-    background-color: #ffffff;
-}
+<style>
+    .mdl-layout__header-row {
+        background-color: #ffffff;
+    }
 
-a.mdl-navigation__link.mdl-typography--text-uppercase {
-    color: #333333;
-}
+    a.mdl-navigation__link.mdl-typography--text-uppercase {
+        color: #333333;
+    }
 
-#logo-title {
-    color: #bf0000;
-}
+    #logo-title {
+        color: #bf0000;
+    }
 
-.mdl-textfield__input {
-    color: #333333;
-}
+    .mdl-textfield__input {
+        color: #333333;
+    }
 
-.mdl-textfield__label:after {
-    background-color: #bf0000;
-    bottom: 20px;
-    content: '';
-    height: 2px;
-    left: 45%;
-    position: absolute;
-    transition-duration: .2s;
-    transition-timing-function: cubic-bezier(.4,0,.2,1);
-    visibility: hidden;
-    width: 10px;
-}
+    .mdl-textfield__label:after {
+        background-color: #bf0000;
+        bottom: 20px;
+        content: '';
+        height: 2px;
+        left: 45%;
+        position: absolute;
+        transition-duration: .2s;
+        transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+        visibility: hidden;
+        width: 10px;
+    }
 
-label#search-label {
-  bottom: 0;
-  color: rgba(0,0,0,.26);
-  font-size: 20px;
-  left: 0;
-  right: 0;
-  pointer-events: none;
-  position: absolute;
-  display: block;
-  top: 35px;
-  left: 12px;
-  width: 100%;
-  overflow: hidden;
-  white-space: nowrap;
-  height: 35px;
-}
+    label#search-label {
+        bottom: 0;
+        color: rgba(0, 0, 0, .26);
+        font-size: 20px;
+        left: 0;
+        right: 0;
+        pointer-events: none;
+        position: absolute;
+        display: block;
+        top: 35px;
+        left: 12px;
+        width: 100%;
+        overflow: hidden;
+        white-space: nowrap;
+        height: 35px;
+    }
 
-.search {
-    padding: 22px;
-}
-span.mdl-layout-title {
-    width: 315px;
-}
+    .search {
+        padding: 22px;
+    }
+
+    span.mdl-layout-title {
+        width: 315px;
+    }
 </style>
