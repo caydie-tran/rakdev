@@ -17,4 +17,8 @@
     .search {
       display: none;
     }
+
+    .mdl-layout-title {
+      width: 300px !important;
+    }
 }
