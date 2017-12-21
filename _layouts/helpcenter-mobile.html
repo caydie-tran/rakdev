@@ -11,12 +11,6 @@
       {% include header.html %}
 
       <div class="mdl-layout__drawer">
-        <!-- <span class="mdl-layout-title">
-          <a id="site-title" href="{{ site.baseurl }}/">
-            <img class="rakuten-logo" src="/assets/rakuten-logo.png" width="50%">
-            <div id="logo-title">Developers</div>
-          </a>
-        </span> -->
         <nav class="mdl-navigation">
           {% assign sorted_pages = site.helpcenter-mobile | sort: 'weight'%}
           {% include menu.html %}
