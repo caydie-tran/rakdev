@@ -256,11 +256,6 @@ ul#navigation {
   float: left;
 }
 
-
-input#search-box {
-  color:#333333;
-}
-
 @keyframes animate {
 	0% {
 		width: 0;

@@ -49,4 +49,17 @@ ul {
     visibility: hidden;
     width: 10px;
 }
+
+span.mdl-layout-title {
+    width: 300px;
+}
+
+div#logo-title {
+    float: right;
+    padding-top: 2px;
+    color: #bf0000;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 1;
+}
   

@@ -8,21 +8,9 @@
   <body>
 
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
-      <header class="mdl-layout__header">
-        <div class="mdl-layout__header-row">
-          <span class="mdl-layout-title">
-            {% if page.title %}<h1 id="page-title" class="mdl-typography--title">{{page.title}}</h1>{% endif %}
-          </span>
-        </div>
-      </header>
+      {% include header.html %}
 
       <div class="mdl-layout__drawer">
-        <span class="mdl-layout-title">
-          <a id="site-title" href="{{ site.baseurl }}/">
-            <img class="rakuten-logo" src="/assets/rakuten-logo.png" width="50%">
-            <div id="logo-title">Developers</div>
-          </a>
-        </span>
         <nav class="mdl-navigation">
           {% assign sorted_pages = site.helpcenter-mobile | sort: 'weight'%}
           {% include menu.html %}
@@ -41,3 +29,15 @@
     </div>
   </body>
 </html>
+
+<style> 
+.mdl-layout__drawer .mdl-navigation {
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  padding-top: 0px;
+}
+</style>
