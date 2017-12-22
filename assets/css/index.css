@@ -409,6 +409,10 @@ input#search-box {
   font-size: 16px;
 }
 
+.gridCellHr {
+  margin-bottom: 15px;
+}
+
 @media only screen and (max-device-width: 480px) {
   .mdl-navigation__link {
     display: none !important;
