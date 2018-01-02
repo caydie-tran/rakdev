@@ -34,16 +34,12 @@ collections:
   help:
     output: true
     permalink: /help/:path/
-  portals:
-    output: true 
-    permalink: /portals/:path/
   demo:
     output: true
     permalink: /demo/:path/
   helpcenter-mobile:
     output: true
     permalink: /helpcenter-mobile/:path/
-    
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

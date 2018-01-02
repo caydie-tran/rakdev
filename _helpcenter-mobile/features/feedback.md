@@ -30,7 +30,7 @@ weight: 8
 
 ### **Receive Feedback**
 
-**The Rakuten Ecosystem **Mobile** SDK** gives you the user interfaces and libraries necessary to receive data from **users****.** **Users** are enabled to provide the following types of feedback:
+**The Rakuten Ecosystem Mobile SDK** gives you the user interfaces and libraries necessary to receive data from **users****.** **Users** are enabled to provide the following types of feedback:
 
 *   Star ratings
 *   Feedback on functionality and usability

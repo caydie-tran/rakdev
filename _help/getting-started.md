@@ -1,5 +1,6 @@
 ---
 layout: help
+weight: 1
 permalink: /help/
 ---
 ### Transform your plain text into static websites and blogs.

@@ -1,6 +1,7 @@
 ---
 layout: help
 title: Adding Content By YAML
+weight: 5
 intro:
 - image_path: /assets/images/flower.jpg
   excerpt_label: Introduction

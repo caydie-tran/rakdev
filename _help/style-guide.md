@@ -1,5 +1,6 @@
 ---
 layout: help
+weight: 3
 ---
 
 Colons can be used to align columns.
