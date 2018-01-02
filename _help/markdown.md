@@ -1,6 +1,7 @@
 ---
 layout: help
 title: Markdown Editor
+weight: 4
 top:
 - excerpt_label: Markdown Editor
 ---
