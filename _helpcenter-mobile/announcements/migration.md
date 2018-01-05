@@ -7,7 +7,6 @@ weight: 1
 permalink: helpcenter-mobile/announcements/migration/
 ---
 
-
 Dear all,
 
 The existing announcements, developer articles, blog posts and release notes have been migrated to their own helo center category (accessible from the top page). 

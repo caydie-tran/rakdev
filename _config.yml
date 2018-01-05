@@ -34,9 +34,6 @@ collections:
   help:
     output: true
     permalink: /help/:path/
-  demo:
-    output: true
-    permalink: /demo/:path/
   helpcenter-mobile:
     output: true
     permalink: /helpcenter-mobile/:path/
