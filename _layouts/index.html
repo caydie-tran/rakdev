@@ -8,22 +8,22 @@
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
 
       <div class="mdl-layout__header mdl-layout__header--waterfall">
-          <div class="mdl-layout__header-row">
-            <a href="/">
-              <span class="mdl-layout-title">
-                <img class="rakuten-logo" src="./assets/rakuten-logo.png" width="50%">
-                <div id="logo-title">Developers</div>
-              </span>
-            </a>
-            <div class="mdl-layout-spacer"></div>
-            <div class="android-navigation-container">
-              <nav class="android-navigation mdl-navigation">
-                <a class="mdl-navigation__link mdl-typography--text-uppercase" href="/">Home</a>
-                <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://global.rakuten.com/corp/about/">About</a>                
-                <a class="mdl-navigation__link mdl-typography--text-uppercase" href="{{ "/help/" | prepend: site.baseurl }}">Support</a>
-              </nav>
-            </div>
+        <div class="mdl-layout__header-row">
+          <a href="/">
+            <span class="mdl-layout-title">
+              <img class="rakuten-logo" src="./assets/rakuten-logo.png" width="50%">
+              <div id="logo-title">Developers</div>
+            </span>
+          </a>
+          <div class="mdl-layout-spacer"></div>
+          <div class="android-navigation-container">
+            <nav class="android-navigation mdl-navigation">
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="/">Home</a>
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="https://global.rakuten.com/corp/about/">About</a>                
+              <a class="mdl-navigation__link mdl-typography--text-uppercase" href="{{ "/help/" | prepend: site.baseurl }}">Support</a>
+            </nav>
           </div>
+        </div>
       </div>
       <main class="mdl-layout__content">
         <div class="page-content">
@@ -35,32 +35,32 @@
               <div class="overlay">
               </div>
               <div class="search-bar">
-                  <form action="/search.html" method="get">
-                    <span class="mdl-textfield mdl-js-textfield is-upgraded">
-                      <input class="mdl-textfield__input" type="text" id="search-box" name="query" autocomplete="off">
-                      <label id="search-label">
-                        <i class="material-icons">search</i>
-                      </label>
-                    </span>
-                  </form>
+                <form action="/search.html" method="get">
+                  <span class="mdl-textfield mdl-js-textfield is-upgraded">
+                    <input class="mdl-textfield__input" type="text" id="search-box" name="query" autocomplete="off">
+                    <label id="search-label">
+                      <i class="material-icons">search</i>
+                    </label>
+                  </span>
+                </form>
               </div>
             </div>
             </div>
             <div class="section-separator">
               <hr>
               <div class="content-grid mdl-grid">
-                  <div class="productCell mdl-cell mdl-cell--4-col-phone">
-                    <a href="/helpcenter-mobile/introduction/getting-started/">
-                      <div class="department-title">
-                        Helpcenter Mobile
-                      </div>
-                      <hr class='gridCellHr'>
-                      <div class="department-description">
-                          Rakuten Ecosystem Mobile (REM) contains Android & iOS SDKs and their backend cloud services. 
-                          This category of content has documentation, tutorials and how to's for using it's features.
-                      </div>
-                    </a>
-                  </div>
+                <div class="productCell mdl-cell mdl-cell--4-col-phone">
+                  <a href="/helpcenter-mobile/introduction/getting-started/">
+                    <div class="department-title">
+                      Helpcenter Mobile
+                    </div>
+                    <hr class='gridCellHr'>
+                    <div class="department-description">
+                      Rakuten Ecosystem Mobile (REM) contains Android & iOS SDKs and their backend cloud services. 
+                      This category of content has documentation, tutorials and how to's for using it's features.
+                    </div>
+                  </a>
+                </div>
               </div>
             </div>
            {% include footer.html %}
